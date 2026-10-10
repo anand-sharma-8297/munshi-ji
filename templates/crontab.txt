@@ -1,0 +1,3 @@
+# Add with: (crontab -l; cat templates/crontab.txt) | crontab -   (replace YOUR_USER)
+0 4 * * * /home/YOUR_USER/agent-home/bin/restart-claude.sh >/dev/null 2>&1 # agent-system:nightly-restart
+*/5 * * * * /home/YOUR_USER/agent-home/bin/watchdog.sh >/dev/null 2>&1 # agent-system:watchdog
