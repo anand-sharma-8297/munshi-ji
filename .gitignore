@@ -1,0 +1,26 @@
+# Personal data — never commit
+memory/*
+!memory/INDEX.md
+!memory/profile.md
+!memory/pending.md
+!memory/sites/
+memory/sites/*
+!memory/sites/_TEMPLATE.md
+!memory/journal/
+memory/journal/*
+!memory/journal/.gitkeep
+workflows/*/outputs/*
+!workflows/*/outputs/.gitkeep
+workspace/
+downloads/
+logs/
+reference/
+CLAUDE.md
+*.env
+.env*
+*.pem
+*.key
+*key*.txt
+__pycache__/
+*.pyc
+node_modules/
