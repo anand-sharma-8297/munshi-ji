@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Personal agent
+Comment=Starts the Telegram agent and its browsers (tmux session "agent")
+Exec=/home/YOUR_USER/agent-home/bin/start-agent.sh
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=10
+NoDisplay=true
